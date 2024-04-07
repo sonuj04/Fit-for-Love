@@ -17,7 +17,19 @@ Welcome to Fit For Love, the ultimate platform where fitness meets romance. Our 
 
 ## Screenshots
 
-![Website Screenshots](https://drive.google.com/drive/folders/1n8M0RsVOA1nfHZeikJ7qnRq9awcHnt3i?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1Dj7lkXkZHZXOQyPUqcXqma86YM3ps3aV/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1kohcGzJkYU6lOieNDNC5w73SwnNYvMGU/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1IdzOa_j3arnqW5MDR0578eYSORop9rCh/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1_sH7iYHKEvpi3F8Ax1OI9hMGDIQPRgWs/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1YVRKRgmYuLvZ8pBJqvp8KjEOhkvckYfX/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1YQs7RGFTAq_rhx-BqthFWAGdq0efdiS5/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1JkysXJsbic1yYXXAxQaxe84UExrt0hWw/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1wfavuvchVinfXmG8xT53VejEs4C4ykiH/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1WVU5lM-lR_Q8A_KFoIAEAgLk1iBz23cz/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/112n_J80kfrRuQrekyDQGvO6fqGcvbElX/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1ntPvYJiav-6oHnhguoqka7gYEZVoYO-0/view?usp=sharing)
+![Website Screenshots](https://drive.google.com/file/d/1F_nw2sVqpXNyIR9Mu4LG3FdRNWF63WDN/view?usp=sharing)
+
 
 
 ## Demo
