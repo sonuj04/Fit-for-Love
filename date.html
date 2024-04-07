@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating Matches</title>
+    <link rel="stylesheet" href="./assets/css/date1.css">
+</head>
+<body>
+    <div id="nan">
+    <h1>Dating Matches</h1>
+    <p>Enter your interests and location to find matches:</p>
+    <label for="interests">Interests:</label>
+     <select name="interests" id="interests">
+        <option value="Bench-press">Bench-press</option>
+        <option value="planks">Planks</option>
+        <option value="Pilates">Pilates</option>
+     </select>
+     <br>
+
+ 
+     <label for="location">Location:</label>
+     <select name="location" id="location">
+        <option value="Agra">Agra</option>
+        <option value="Lucknow">Lucknow</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Indore">Indore</option>
+        <option value="Gorakhpur">Gorakhpur</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+     </select>
+     <br>
+
+    <button id="date_btn" onclick="findMatches()">Find Matches</button><br>
+    <div id="matches"></div>
+
+    <script>
+        function findMatches() {
+            // Get user input
+            var interests = document.getElementById("interests").value;
+            var location = document.getElementById("location").value;
+
+            // Simulated database of users
+            var users = [
+                { name: "Rohan", interests: "Pilates", location: "Jaipur" },
+                { name: "Sameer", interests: "planks", location: "Gorakhpur" },
+                { name: "Chaitanya", interests: "Bench-press", location: "Agra" },
+                { name: "Arun", interests: "Pilates", location: "Indore" },
+                { name: "Ansh", interests: "planks", location: "Mumbai" },
+                { name: "Arhan", interests: "Pilates", location: "Delhi" },
+                { name: "Ranbir", interests: "Pilates", location: "Hyderabad" },
+            ];
+
+            // Find matches based on interests and location
+            var matches = users.filter(function(user) {
+                return user.interests.includes(interests) && user.location.toLowerCase() === location.toLowerCase();
+            });
+
+            // Display matches
+            var matchesDiv = document.getElementById("matches");
+            matchesDiv.innerHTML = "<h2>Matches:</h2>";
+            if (matches.length === 0) {
+                matchesDiv.innerHTML += "No matches found.";
+            } else {
+                matches.forEach(function(match) {
+                    matchesDiv.innerHTML += "<p>Name: " + match.name + "<br>Interests: " + match.interests + "<br>Location: " + match.location + "</p>";
+                });
+            }
+        }
+    </script>
+    </div>
+</body>
+</html>

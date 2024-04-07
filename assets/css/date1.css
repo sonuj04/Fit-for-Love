@@ -1,0 +1,29 @@
+body{
+    background-image:url("../images/dating.jpg");
+    align-content: center;
+    background-size: cover;
+}
+
+#nan{
+    text-align: center;
+    font-size: xx-large;
+    margin: auto;
+}
+#interests{
+    border-radius: 6px;
+    background-color: brown;
+    color: white;
+    border-width: 0px;
+}
+#location{
+    border-radius: 6px;
+    background-color: brown;
+    color: white;
+    border-width: 0px;
+}
+#date_btn{
+    border-radius: 6px;
+    background-color: brown;
+    color: white;
+    border-width: 0px;
+}

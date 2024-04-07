@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../images/bbg.jpg');
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #f39f9f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:darkred;
+}
+
+h1 {
+    text-align: center;
+    color: darkred;
+}
+
+form {
+    margin-top: 20px;
+    
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: darkred;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color:darkred;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.dating_sign_up{
+    text-decoration: none;
+    color:darkgreen;
+    font-weight: bold;
+}
+

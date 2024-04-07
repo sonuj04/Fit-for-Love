@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Chat Room</title>
+    <link rel="stylesheet" href="./assets/css/chat.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1 id='h1-text'>Personal Chat Room</h1>
+        <div id="chat-box" class="chat-box"></div>
+        <input type="text" id="message" placeholder="Type your message...">
+        <button onclick="sendMessage()">Send</button>
+        <hr>
+        <h2 id='ank-text'>Sign Up</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="signUp()">Sign Up</button>
+    </div>
+
+    <script>
+        // Simulated database of users
+        const users = [];
+
+        function signUp() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            users.push({ username, password });
+            alert('User signed up successfully!');
+        }
+
+        function sendMessage() {
+            const message = document.getElementById('message').value;
+            document.getElementById('message').value = '';
+            const chatBox = document.getElementById('chat-box');
+            chatBox.innerHTML += <p>${message}</p>;
+            chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll to bottom
+        }
+    </script>
+</body>
+</html>
