@@ -13,7 +13,9 @@ Welcome to Fit For Love, the ultimate platform where fitness meets romance. Our 
 - Recommends best fitness related weekly blogs
 - Access to exercise guide
 
+## Deployment link
 
+https://effervescent-croquembouche-7e67d4.netlify.app
 
 ## Screenshots
 
